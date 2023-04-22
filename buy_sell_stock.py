@@ -1,9 +1,9 @@
 def buy_sell_stock(prices):
     """
-    buy_sell_stock([7,1,5,3,6,4])
-    >>> 5
-    buy_sell_stock([9,7,6,4,3,1])
-    >>> 0
+    >>> buy_sell_stock([7,1,5,3,6,4])
+    5
+    >>> buy_sell_stock([9,7,6,4,3,1])
+    0
     """
     cur_max, max_so_far = 0 , 0
     for i in range(1,len(prices)):
