@@ -22,3 +22,4 @@ def is_isomorphic(s, t):
             if dict[s[i]] != t[i]:
                 return False
     return True
+    
