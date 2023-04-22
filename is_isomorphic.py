@@ -1,12 +1,12 @@
 def is_isomorphic(s, t):
     """
-    s = foo
-    t = bar 
-    >>> False
+    >>> s = foo
+    >>> t = bar 
+    False
 
-    s = foo
-    t = bee 
-    >>> True
+    >>> s = foo
+    >>> t = bee 
+    True
 
     """
 
