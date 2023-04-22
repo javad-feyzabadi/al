@@ -1,13 +1,9 @@
 def is_isomorphic(s, t):
     """
-    >>> s = foo
-    >>> t = bar 
+    >>> is_isomorphic(foo, bar)
     False
-
-    >>> s = foo
-    >>> t = bee 
+    >>> is_isomorphic(foo, bee)
     True
-
     """
 
     if len(s) != len(t):
