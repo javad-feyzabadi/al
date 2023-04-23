@@ -20,4 +20,3 @@ class ZigZag:
 z = ZigZag([1,3,5,7,9],[2,4,6,8,10])
 while z.has_next():
     print(z.next(), end=' ')
-
