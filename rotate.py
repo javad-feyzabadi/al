@@ -1,4 +1,8 @@
 def rotate(s,k):
+    """
+    >>> rotate('hello',7)
+    "llohe"
+    """
     double_s = s + s
     if k <= len(s):
         return double_s[k:k+len(s)]
