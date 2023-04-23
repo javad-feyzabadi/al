@@ -1,4 +1,8 @@
 def remove_min(stack):
+    """
+    >>> remove_min([4,5,2,8,-2,5,1,9])
+    -2
+    """
     storage_stack = []
     if len(stack) == 0:
         return stack
