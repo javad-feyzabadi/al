@@ -17,4 +17,4 @@ def binary_search(array,element):
             high = mid - 1
     return -1
 
-print(binary_search([2,3,4,6,12,19,20,21,25,26,59,98,122,125,135,168],125))
+print(binary_search([2,3,4,6,12,19,20,21],4))
