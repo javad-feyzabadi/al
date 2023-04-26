@@ -48,7 +48,7 @@ class ChunkedTests(TestCase):
             ValueError,'iterator is not divisible by n',f
         )
         self.assertEqual(
-            list(chunked.chunked('ABCDEF',None,strict=True)),
+            list(chunked.chunked('ABCDEF',3,strict=True)),
             [['A','B','C'],['D','E','F']]
         )
 
