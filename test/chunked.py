@@ -20,4 +20,3 @@ def chunked(iterable,n,strict = False):
     else:
         return iterator
     
-print(list(chunked(l,3,strict=True)))
