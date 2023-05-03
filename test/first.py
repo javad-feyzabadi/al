@@ -2,6 +2,7 @@
 l = [1,2,3,4,5,6]
 a = []
 _marker = object()
+
 def first(iterable,default=_marker):
     try:
         return next(iter(iterable))
@@ -11,8 +12,3 @@ def first(iterable,default=_marker):
                              'and no default value was provided') from e
         return default
 
-print(first(a,'boooooooo'))
-print(40 * "*")
-print(first(l))
-print(40 * "*")
-print(first(a,))
